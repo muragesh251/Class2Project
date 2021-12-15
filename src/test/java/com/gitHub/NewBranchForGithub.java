@@ -1,12 +1,12 @@
 package com.gitHub;
 
+import io.cucumber.java.en.Given;
+
 public class NewBranchForGithub {
 
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		System.out.println("Checking new branch creation in Github");
-		System.out.println("Checking new branch creation in Github");
-
+	@Given("user is on login page")
+	public void _login_page() {
+		System.out.println("inside Step-user is on loginpage");
 	}
 
 }
